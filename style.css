@@ -19,19 +19,33 @@ width: 100%;
 
 section {
 border: 1px solid black;
-background-color: #eee;
-padding: 20px;
+background-color: #999;
+color: white;
+padding: 40px 10px 10px 10px;
 margin: 10px;
+position: relative;
 }
 
 section h2 {
 position: absolute;
 top: 0;
 right: 0;
-background-color: #ccc;
 margin: 0;
 padding: 5px 10px;
 border: 1px solid black;
+color: black;
+}
+
+#chicken h2 {
+background-color: #f4a7a7;
+}
+
+#beef h2 {
+background-color: #d46a6a;
+}
+
+#sushi h2 {
+background-color: #f4e17f;
 }
 
 /* Layout for Desktop (992px and above) */
